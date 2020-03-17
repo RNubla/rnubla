@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/RNubla.github.com.io/'
+    publicPath: '/rnubla/'
 }
