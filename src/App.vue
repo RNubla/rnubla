@@ -16,7 +16,14 @@ export default {
 }
 </script>
 <style lang="scss">
-@import "~bulma/css/bulma.css"
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Nanum+Gothic:400,700&display=swap');
+@import "~bulma/css/bulma.css";
+
+#app{
+  font-family: libre baskerville,Georgia,serif;
+}
+
+// $font-family: libre baskerville,Georgia,serif;
 // #app {
 //   font-family: Avenir, Helvetica, Arial, sans-serif;
 //   -webkit-font-smoothing: antialiased;
