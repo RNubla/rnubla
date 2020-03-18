@@ -1,9 +1,15 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <Navbar/>
+  <div class="columns">
+    <div class="column"></div>
+    <div class="column is-four-fifths">
+      <div id="app">
+        <div id="nav">
+          <Navbar/>
+        </div>
+        <router-view/>
+      </div>
     </div>
-    <router-view/>
+    <div class="column"></div>
   </div>
 </template>
 
@@ -21,6 +27,8 @@ export default {
 
 #app{
   font-family: libre baskerville,Georgia,serif;
+  -webkit-font-smoothing: antialiased;
+  
 }
 
 // $font-family: libre baskerville,Georgia,serif;
