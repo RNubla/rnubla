@@ -7,6 +7,11 @@
           <Navbar/>
         </div>
         <router-view/>
+        <footer class="footer">
+          <div class="content has-text-centered">
+            <Footer/>
+          </div>
+        </footer>
       </div>
     </div>
     <div class="column"></div>
@@ -15,9 +20,11 @@
 
 <script>
 import Navbar from '@/components/Navbar.vue'
+import Footer from '@/components/Footer.vue'
 export default {
   components:{
-    Navbar
+    Navbar,
+    Footer
   }
 }
 </script>

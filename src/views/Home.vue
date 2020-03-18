@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <div class="container">
-      
       <section class="hero">
         <div class="hero-body">
           <h1 class="title">
@@ -24,30 +23,20 @@
       </figure>
     
     </div>
-    <div class="container">
-      <div class="columns">
-        <div class="column is-full">
-          <div class="columns">
-            <div class="column is-two-fifths"></div>
-            <div class="column">
-              <HelloWorld msg='About'/>
-            </div>
-            <div class="column"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+  
+  
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import HelloWorld from '@/components/HelloWorld.vue';
+// import Footer from '@/components/Footer.vue';
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    HelloWorld,
+    // Footer
   }
 }
 </script>
@@ -56,4 +45,7 @@ export default {
 #hero-text{
   text-align: center
 }
+/* .home .container{
+  background-image: url('../assets/laptop.jpg');
+} */
 </style>

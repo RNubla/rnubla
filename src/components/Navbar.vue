@@ -31,14 +31,13 @@
 <script>
 export default {
     name: 'Navbar',
-    data: function(){
+    data (){
         return{
             isActive: false
         }
     },
-
     methods:{
-        toggleBurger: function(){
+        toggleBurger(){
             this.isActive = !this.isActive;
         }
     }
