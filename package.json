@@ -9,6 +9,7 @@
     "gh-pages-deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
+    "buefy": "^0.8.13",
     "bulma": "^0.8.0",
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
@@ -23,6 +24,8 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
     "execa": "latest",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
