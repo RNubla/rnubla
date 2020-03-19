@@ -28,26 +28,37 @@
         <div class="column is-two-thirds">
           <section class="section">
             <div class="container">
-              <h1 class="title">About:</h1>
+              <h1 class="title is-4">About:</h1>
               <p>
-                I am currently in my senior year at West Chester University. I am
-                persuing my Bachelor's degree in Computer Science and will be graduating
-                in the fall of 2020. I've been interested in programming ever since 
-                I was introduced to the Unity Game Engine. I like to learn new 
-                technologies and I am very motivated to work and improve my programming
-                skills. I currently work as an IT Technician at a small IT firm. This 
-                position enables me to improve my troubleshooting skills, which can be applied
-                to software developement. 
+                I am currently in my senior year at West Chester University. I
+                am persuing my Bachelor's degree in Computer Science and will be
+                graduating in the fall of 2020. I've been interested in
+                programming ever since I was introduced to the Unity Game
+                Engine. I like to learn new technologies and I am very motivated
+                to work and improve my programming skills. I currently work as
+                an IT Technician at a small IT firm. This position enables me to
+                improve my troubleshooting skills, which can be applied to
+                software developement.
               </p>
             </div>
           </section>
           <section class="section">
             <div class="container">
-              <h1 class="title">Languages:</h1>
+              <h1 class="title is-4">Languages:</h1>
+              <div class="content">
+                <ul id="progList">
+                  <li v-for="lang in progLang" :key="lang.name">
+                    {{ lang.name }}
+                  </li>
+                </ul>
+              </div>
               <p>
-                The languages that I am comfortable using are Java and Python. However, I have been 
-                getting myself familiar with Vuejs, CSS and HTML. This website was developed using 
-                those three languages. 
+                The languages that I am comfortable using are Java and Python.
+                However, I have been getting myself familiar with Vuejs, CSS and
+                HTML. This website was developed using those three web technologies.
+                I am dedicated to learn more about making web applications, integrating
+                Python, as the backend services, and Vuejs for the Front-End of the 
+                web app. The goal is to become a Full-Stack developer.
               </p>
             </div>
           </section>
@@ -58,11 +69,21 @@
   </div>
 </template>
 
-<script>
+<script scoped>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
 export default {
   name: "Home",
+  // el: "#progList",
+  data() {
+    return {
+      progLang: [{ name: "Java" }, 
+                 {name: 'Python'},
+                 {name: 'Html'},
+                 {name: 'CSS'},
+                 {name: 'Vuejs'}]
+    };
+  },
   components: {
     HelloWorld
   }

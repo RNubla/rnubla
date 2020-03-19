@@ -29,7 +29,8 @@ export default {
 }
 </script>
 <style lang="scss">
-// @import "~sass/utilities/inital-variables";
+$footer-background-color: white;
+// $title-family: libre baskerville,Georgia,serif;
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Nanum+Gothic:400,700&display=swap');
 @import "~bulma/css/bulma.css";
 
@@ -38,26 +39,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   
 }
-
-// $font-family: libre baskerville,Georgia,serif;
-// #app {
-//   font-family: Avenir, Helvetica, Arial, sans-serif;
-//   -webkit-font-smoothing: antialiased;
-//   -moz-osx-font-smoothing: grayscale;
-//   text-align: center;
-//   color: #2c3e50;
-// }
-
-// #nav {
-//   padding: 30px;
-// }
-
-// #nav a {
-//   font-weight: bold;
-//   color: #2c3e50;
-// }
-
-// #nav a.router-link-exact-active {
-//   color: #42b983;
-// }
+.footer{
+  background-color: white;
+}
 </style>
