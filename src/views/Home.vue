@@ -102,37 +102,37 @@
                 <div class="content">
                   <nav class="panel is-success">
                     <p class="panel-heading article-title">Repository</p>
-                    <a href="" class="panel-block">
+                    <a href="https://github.com/RNubla/money-manager" class="panel-block">
                       <span class="panel-icon">
                         <i class="fas fa-book" aria-hidden="true"></i>
                       </span>
                       Money-Manager
                     </a>
-                    <a href="" class="panel-block">
+                    <a href="https://github.com/RNubla/nodejs-webscrape-target" class="panel-block">
                       <span class="panel-icon">
                         <i class="fas fa-book" aria-hidden="true"></i>
                       </span>
                       Nodejs-WebScrape-Target
                     </a>
-                    <a href="" class="panel-block">
+                    <a href="https://github.com/RNubla/rnubla" class="panel-block">
                       <span class="panel-icon">
                         <i class="fas fa-book" aria-hidden="true"></i>
                       </span>
                       RNubla
                     </a>
-                    <a href="" class="panel-block">
+                    <a href="https://github.com/RNubla/Windows10-Compat-Scan" class="panel-block">
                       <span class="panel-icon">
                         <i class="fas fa-book" aria-hidden="true"></i>
                       </span>
                       Windows10-Compat-Scan
                     </a>
-                    <a href="" class="panel-block">
+                    <a href="https://github.com/RNubla/responsive-website" class="panel-block">
                       <span class="panel-icon">
                         <i class="fas fa-book" aria-hidden="true"></i>
                       </span>
                       Responsive-Website
                     </a>
-                    <a href="" class="panel-block">
+                    <a href="https://github.com/RNubla/hello-world-rust" class="panel-block">
                       <span class="panel-icon">
                         <i class="fas fa-book" aria-hidden="true"></i>
                       </span>
