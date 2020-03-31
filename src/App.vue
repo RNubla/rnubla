@@ -24,6 +24,7 @@ export default {
 </script>
 <style lang="scss">
 $footer-background-color: white;
+$panel-block-color	: white;
 // $title-family: libre baskerville,Georgia,serif;
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Nanum+Gothic:400,700&display=swap");
 @import "~bulma/css/bulma.css";

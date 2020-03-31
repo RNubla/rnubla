@@ -94,6 +94,57 @@
           </section>
         </div>
       </section>
+      <section class="section">
+        <div class="container">
+          <section class="articles">
+            <div class="column is-three-fifths is-offset-one-fifth">
+              <div class="content article-body">
+                <div class="content">
+                  <nav class="panel is-success">
+                    <p class="panel-heading article-title">Repository</p>
+                    <a href="" class="panel-block">
+                      <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span>
+                      Money-Manager
+                    </a>
+                    <a href="" class="panel-block">
+                      <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span>
+                      Nodejs-WebScrape-Target
+                    </a>
+                    <a href="" class="panel-block">
+                      <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span>
+                      RNubla
+                    </a>
+                    <a href="" class="panel-block">
+                      <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span>
+                      Windows10-Compat-Scan
+                    </a>
+                    <a href="" class="panel-block">
+                      <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span>
+                      Responsive-Website
+                    </a>
+                    <a href="" class="panel-block">
+                      <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span>
+                      Hello-World-Rust
+                    </a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
     </body>
   </div>
 </template>
@@ -125,6 +176,12 @@ export default {
 <style scoped>
 #hero-text {
   text-align: center;
+}
+.panel-block-color{
+  background-color: white;
+}
+.panel{
+  background-color: white;
 }
 
 .hero-body {
